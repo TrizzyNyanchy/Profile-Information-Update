@@ -1,0 +1,94 @@
+/* General styles for the content area */
+.content {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Gradient background */
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styling for the heading */
+.content h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Styles for the cards container */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Individual card styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Container inside each card */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.container h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+.container a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #0047ab;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}

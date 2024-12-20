@@ -1,0 +1,15 @@
+.login-form {
+  text-align: right;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.login-form {
+  border: 3px solid rgb(234, 238, 234);
+  align-self: center;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 50px;
+}

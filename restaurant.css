@@ -1,0 +1,35 @@
+.content {
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 90%;
+}
+
+table {
+    font-family: sans-serif;
+
+    th,
+    td {
+        padding: .25em .5em;
+        text-align: left;
+
+        &:nth-child(2) {
+            text-align: right;
+        }
+    }
+
+    td {
+        background-color: #eee;
+    }
+
+    th {
+        background-color: #009;
+        color: #fff;
+    }
+}
+
+.btn-delete {
+    color: chocolate;
+    cursor: pointer;
+}
